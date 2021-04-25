@@ -10,19 +10,19 @@ As far as I have searched, there is no mention of this approach in the literatur
 ### Output examples
 Here are some examples :chart_with_upwards_trend:
 
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAL_backtesting.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAOI_backtesting.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAPL_backtesting.png>|
-<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAWW_backtesting.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/ABCO_backtesting.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/ABMD_backtesting.png>|
-
+| | |
+|:-------------------------:|:-------------------------:|
+<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAL_backtesting.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAOI_backtesting.png>|
+<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAWW_backtesting.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/ABCO_backtesting.png>|
+<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAPL_backtesting.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/ABMD_backtesting.png>|
 
 ### What about classical strategy ?
 Let's compare my method with classical crossing of moving averages strategy.
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAL_backtesting_comp.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAOI_backtesting_comp.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAPL_backtesting_comp.png>|
-<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAWW_backtesting_comp.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/ABCO_backtesting_comp.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/ABMD_backtesting_comp.png>|
-
+| | |
+|:-------------------------:|:-------------------------:|
+<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAL_backtesting_comp.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAOI_backtesting_comp.png>|
+<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAWW_backtesting_comp.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/ABCO_backtesting_comp.png>|
+<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/AAPL_backtesting_comp.png>|<img src=https://github.com/Prevost-Guillaume/Algoritmic-trading/blob/main/Images/ABMD_backtesting_comp.png>|
 </br></br>
 
 
