@@ -19,8 +19,8 @@ from plotly.subplots import make_subplots
 from plotly.graph_objs.scatter import Line
 
 import pyAesCrypt
-key = st.secrets["key"]
-for filename in ['Indicateurs.py', 'main.py', 'strategy_functions.py', 'regressor.sav', "data/all_data_3.p"]:
+key = "aBFh_RR=g-(3DIhd<gdoTVRAODGoidgFIfusdfqiodjd_"#st.secrets["key"]#
+for filename in ['Indicateurs.py', 'main.py', 'strategy_functions.py', 'regressor.sav', "data/data_1.p", "data/data_2.p", "data/data_3.p"]:
     pyAesCrypt.decryptFile(filename+".aes", filename, key)
 
 
@@ -36,7 +36,11 @@ from strategy_functions import *
 #################################################################################################################################################
 
 ### Get data
-data = getData('data/all_data_3.p')
+#filenames = split_file('data/all_data_3.p', n=200)
+#input(str(filenames))
+
+data = getDatas([f'data/data_{i+1}.p' for i in range(3)])
+#data = getData('data/all_data_3.p')
 date_split = pd.Timestamp('2017-01-01')
 
 train_dic, test_dic = traintestdicosplit(data, date_split=date_split)
@@ -69,7 +73,6 @@ model = pickle.load(open('regressor.sav', 'rb'))
 
 
 def get_trade_df(ticker):
-
     df = test_dic[ticker]
     df = df.drop(["y"], axis=1)
     x = preprocessing(df)
