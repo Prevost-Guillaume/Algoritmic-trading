@@ -19,7 +19,7 @@ from plotly.subplots import make_subplots
 from plotly.graph_objs.scatter import Line
 
 import pyAesCrypt
-key = "aBFh_RR=g-(3DIhd<gdoTVRAODGoidgFIfusdfqiodjd_"#st.secrets["key"]#
+key = st.secrets["key"]
 for filename in ['Indicateurs.py', 'main.py', 'strategy_functions.py', 'regressor.sav', "data/data_1.p", "data/data_2.p", "data/data_3.p"]:
     pyAesCrypt.decryptFile(filename+".aes", filename, key)
 
